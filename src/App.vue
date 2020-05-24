@@ -5,10 +5,10 @@
 </template>
 
 <script>
-import PanelOverview from "./components/PanelOverview.vue";
+import PanelOverview from './components/PanelOverview.vue';
 
 export default {
-  name: "App",
+  name: 'App',
   components: {
     PanelOverview
   }

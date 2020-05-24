@@ -12,7 +12,7 @@
 
 <script>
 export default {
-  name: "PanelList",
+  name: 'PanelList',
   props: {
     data: {
       type: Array,

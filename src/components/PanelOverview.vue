@@ -6,12 +6,12 @@
 </template>
 
 <script>
-import PanelHeader from "@/components/PanelHeader.vue";
-import PanelList from "@/components/PanelList.vue";
-import axios from "axios";
+import PanelHeader from '@/components/PanelHeader.vue';
+import PanelList from '@/components/PanelList.vue';
+import axios from 'axios';
 
 export default {
-  name: "CoronaPanel",
+  name: 'CoronaPanel',
   components: {
     PanelHeader,
     PanelList
@@ -28,7 +28,7 @@ export default {
     fetchData() {
       axios
         .get(
-          "https://brasil.io/api/dataset/covid19/caso_full/data?search=&state=SP&city=Sumaré"
+          'https://brasil.io/api/dataset/covid19/caso_full/data?search=&state=SP&city=Sumaré'
         )
         .then(response => {
           this.panelData = response.data.results;

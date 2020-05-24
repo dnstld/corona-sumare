@@ -16,7 +16,7 @@
 
 <script>
 export default {
-  name: "PanelHeader",
+  name: 'PanelHeader',
   props: {
     data: {
       type: Object,
