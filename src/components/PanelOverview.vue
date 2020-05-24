@@ -1,8 +1,17 @@
 <template>
-  <div>
-    <PanelHeader v-if="panelData" :data="panelData[0]" />
-    <PanelList v-if="panelData" :data="panelData" />
-  </div>
+  <v-container>
+    <v-row>
+      <v-col cols="12">
+        <PanelHeader v-if="panelData" :data="panelData[0]" />
+      </v-col>
+    </v-row>
+
+    <v-row>
+      <v-col cols="12">
+        <PanelList v-if="panelData" :data="panelData" />
+      </v-col>
+    </v-row>
+  </v-container>
 </template>
 
 <script>
