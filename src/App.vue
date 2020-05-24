@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <CoronaPanel />
+    <PanelOverview />
   </div>
 </template>
 
 <script>
-import CoronaPanel from "./components/CoronaPanel.vue";
+import PanelOverview from "./components/PanelOverview.vue";
 
 export default {
   name: "App",
   components: {
-    CoronaPanel
+    PanelOverview
   }
 };
 </script>
